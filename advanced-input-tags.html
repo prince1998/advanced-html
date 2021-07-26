@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form>
+            <label>Name: </label>
+            <input type = "text" id = "name" value = "Priyansh"><br> 
+            <label>Password: </label>
+            <input type = "password" id = "pass"><br><br>
+            <label>Gender</label><br>
+            <input type = "radio" name = "gender" id = "male">Male<br>
+            <input type = "radio" name = "gender" id = "female">Female<br>
+            <input type = "radio" name = "gender" id = "transgender">Transgender<br>
+            <input type = "submit">
+            <label>Gender</label><br>
+            <input type = "checkbox" name = "gender-check" id = "male-check">Male<br>
+            <input type = "checkbox" name = "gender-checkr" id = "female-check">Female<br>
+            <input type = "checkbox" name = "gender-check" id = "transgender-check">Transgender<br>
+
+            <!-- Put the selected color value in the text box below it -->
+            <input type = "color" id = "send_color" oninput="result_color.value = send_color.value"><br>
+            <input type = "text" id = "result_color"><br>
+
+            <!-- Put the selected date value in the text box below it -->
+            <input type = "date" id = "send_date" oninput="result_date.value = send_date.value"><br>
+            <input type = "text" id = "result_date"><br>
+
+              <!-- Put the selected date (local) value in the text box below it -->
+              <input type = "datetime-local" id = "send_date_local" oninput="result_date_local.value = send_date_local.value"><br>
+              <input type = "text" id = "result_date_local"><br>
+
+              <!-- Put the selected date value in the text box below it -->
+              <input type = "time" id = "send_time" oninput="result_time.value = send_time.value"><br>
+              <!-- The date formatting will change according to the browser -->
+              <input type = "text" id = "result_time"><br>
+
+            <!-- Put the selected date (local) value in the text box below it -->
+            <input type = "email" id = "send_email" oninput="result_email.value = send_email.value"><br>
+            <input type = "text" id = "result_email"><br>
+
+            URL: <input type = "url" id = "send_URL" oninput="result_URL.value = send_URL.value"><br>
+            Output: <input type = "text" id = "result_URL"><br>
+
+            <input type = "range" id = "send_range" min = "0" max = "20" oninput="result_range.value = send_range.value"><br>
+            <input type = "text" id = "result_range"><br>
+
+            <input type = "button" value = "Button" onclick = "alert('Hello')">
+            <input type = "submit">
+            <input type = "reset">
+
+        </form>
+    </body>
+</html>
